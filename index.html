@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
     <title>Toni V. Panzera</title>
 </head>
-<body style="background-color:powderblue;">
 
-<h1 style="font-family: 'Times New Roman', serif, font-size: 18px;">Toni V. Panzera</h1>
-<p>Hello! I am a fourth year Ph.D. student at Rice University, working under Dr. Christopher Johns-Krull. </p>
+<body>
+    <ul>
+        <li data-tab-target="#home" class="active tab">Home</li>
+        <li data-tab-target="#research" class="tab">Research</li>
+        <li data-tab-target="#cv" class="tab">CV</li>
+        <li data-tab-target="#personal" class="tab">Personal</li>
+    </ul>
 
+<div class="tab-content">
+    <div id="home" data-tab-content class="active">
+        <h1>Home</h1>
+    </div>
+    <div id="research"data-tab-content>
+        <h1>Research</h1>
+    </div>
+    <div id="cv">
+        <h1>CV</h1>
+    </div>
+    <div id="personal"data-tab-content>
+        <h1>Personal</h1>
+    </div>
+</div>
 </body>
+
+
 </html>
