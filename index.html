@@ -10,29 +10,92 @@
 </head>
 
 <body>
-    <ul>
+    <ul class="tabs">
         <li data-tab-target="#home" class="active tab">Home</li>
         <li data-tab-target="#research" class="tab">Research</li>
-        <li data-tab-target="#cv" class="tab">CV</li>
+        <li data-tab-target="#resume" class="tab">Resume</li>
         <li data-tab-target="#personal" class="tab">Personal</li>
     </ul>
 
     <div class="tab-content">
         <div id="home" data-tab-content class="active">
-            <h1>Home</h1>
-            <p>This is the home page</p>
+            <h1>Toni V. Panzera</h1>
+            <p>Welcome to my website! I am a fourth year Astrophysics Ph.D. student
+                at Rice University, working under Dr. Chris Johns-Krull. I received my Bachelor's
+                in Physics & Mathematics from the University of Denver in 2022, and then came in search
+                of warmer weather (and I guess more education) in Houston.
+            </p>
+            <figure class="fig1">
+                <img src="Picture1.jpg" alt="Girl in front of telescope.">
+                <figcaption class="figcaption">
+                    This is me during an observing run at Palomar
+                    Observatory! We were taking infrared spectra of accreting and non-accreting
+                    brown dwarfs using TripleSpec on the 3.6m Hale Telescope!
+                </figcaption>
+              </figure>
+            
         </div>
-        <div id="research"data-tab-content>
-            <h1>Research</h1>
-            <p>Research goes here</p>
+        <div id="research" data-tab-content>
+            <h1>Overview</h1>
+            <p class="p">My work focuses on young very low mass stars, brown dwarfs, and planetary mass objects. In particular,
+                I am interested in accretion processes onto these objects, which is how they assemble their final
+                mass.  
+            </p>
+            <p class="p">
+                For young stars of approximately solar mass, the accretion paradigm is quite well understood. The figure below
+                shows the mechanics of this process. The young central star is usually very magnetically active and is still 
+                surrounded by a circumstellar disc of material. Its magnetic field lines truncate the inner disc, and transport
+                material from the disc to the star, in a process known as magnetospheric accretion.
+                As the material travels along the field lines, it accelerates, reaching near free-fall velocities and up to
+                a million degrees. The velocity will eventually exceed the local sound speed, forming an accretion shock. The 
+                accretion shock heats the pre- and post-shock regions, resulting in material ranging 
+                from <math><msup><mi>10</mi><mn>6</mn></msup></math> K 
+                to <math><msup><mi>10</mi><mn>4</mn></msup></math> K,
+                and producing emission from X-rays all the way to the optical. 
+            </p>
+            <figure class="fig2">
+                <img src="HartmannFull.jpg" alt="Magnetospheric accretion">
+                <figcaption class="figcaption">
+                    Figure 1. The current magnetospheric accretion paradigm for young low mass stars.
+                </figcaption>
+              </figure>
+            <p class="p">
+                
+            </p>
+            <h1>Observing Experience</h1>
+            <p class="p">
+                I have been very fortunate to participate in several observing runs, 
+                usually obtaining
+                data for projects other than my own. These data have all been spectra 
+                in both the optical and infrared regimes. I have been very spoilt in that
+                I have used primarily Hubble data, and therefore have not had to collect
+                much data for myself.
+            </p>
+
+            <h2>McDonald Observatory</h2>
+            <p class="p">
+
+            </p>
+            <!--
+            <figure class="fig2">
+                <img src="AccretionShock.jpg" alt="Accretion shock">
+                <figcaption class="figcaption">
+                    Figure 2. Temperature structure of the accretion column in Figure 1.
+                </figcaption>
+              </figure>
+            -->
+
         </div>
-            <div id="cv" data-tab-content>
-            <h1>CV</h1>
-            <p>Link to most recent CV</p>
+            <div id="resume" data-tab-content>
+            <h1>Resume</h1>
+            <a href="Resume_Apr2026.pdf">View current resume</a>
         </div>
-        <div id="personal"data-tab-content>
+        <div id="personal" data-tab-content>
             <h1>Personal</h1>
-            <p>Personal stuff</p>
+            <p>I am an international student from Johannesburg,
+                South Africa. When I'm not doing astronomy, I love to
+                swim and doodle.
+            </p>
         </div>
     </div>
 </body>
